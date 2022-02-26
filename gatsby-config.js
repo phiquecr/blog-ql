@@ -10,6 +10,12 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `phiquecr`
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `uploads`,
@@ -48,6 +54,7 @@ module.exports = {
             },
           },
           `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`,
         ],
       },
     },
