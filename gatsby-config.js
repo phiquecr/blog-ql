@@ -7,7 +7,7 @@ module.exports = {
     position: `Desenvolvedor Front-end`,
     description: `Desenvolvedor de Web-Site e Apps responsivos, atuando na área de front-end como Dev Júnior.`,
     author: `@phiquecr`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://blog-ql.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
